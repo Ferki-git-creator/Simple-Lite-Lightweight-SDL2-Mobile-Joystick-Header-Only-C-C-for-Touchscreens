@@ -52,8 +52,9 @@ int main(int argc, char* args[]) {
 
     return 0;
 }
+ 
 
 
-License:
+#License:
 This project is licensed under the MIT License. See the LICENSE.md file for details.
 Developed by Ferki (denisdola278@gmail.com)
