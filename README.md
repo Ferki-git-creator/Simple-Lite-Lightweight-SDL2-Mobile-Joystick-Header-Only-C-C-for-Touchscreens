@@ -20,6 +20,7 @@ g++ virtual_joystick.h -o joystick_demo -lSDL2 -lm
 
 Integrating into Your Project:
 If you have your own main function, define VIRTUAL_JOYSTICK_NO_MAIN before including the header to prevent its main function from being compiled:
+```
 #define VIRTUAL_JOYSTICK_IMPLEMENTATION // Required to include function definitions
 #define VIRTUAL_JOYSTICK_NO_MAIN        // Prevents the demo's main function from being included
 #include "virtual_joystick.h"
